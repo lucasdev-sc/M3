@@ -46,7 +46,7 @@ export const FeaturedMovie = () => {
           <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
         <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 -translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-          <BsChevronCompactRight onClick={prevSlide} size={30} />
+          <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
         
         <div className="w-[632px] absolute top-0 -translate-x-[-50%] -translate-y-[-15em] left-5">
